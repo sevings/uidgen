@@ -41,7 +41,7 @@ func main() {
 		return
 	}
 
-	// Generate an unique ID.
+	// Generate a unique ID.
 	id := gen.NextID()
 
 	fmt.Printf("String ID:      %s\n", id)

@@ -163,7 +163,7 @@ func (gen *UidGenerator) NextID() UniqueID {
 	return id
 }
 
-// FromBase32 returns a UniqueID parsed from string.
+// FromBase32 returns a UniqueID parsed from the string.
 func (gen *UidGenerator) FromBase32(str string) (UniqueID, error) {
 	var id UniqueID
 
